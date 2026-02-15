@@ -3,10 +3,6 @@
 Un visualizzatore 3D fluido e performante, ottimizzato per il web moderno. Questo progetto utilizza **Three.js** con un
 layout responsive adattivo e gestione avanzata delle risorse.
 
-![License](https://img.shields.io)
-![Three.js](https://img.shields.io)
-![Vite](https://img.shields.io)
-
 ## 📋 Caratteristiche
 
 - **Responsive Grid**: Layout dinamico che passa da una visualizzazione a colonne su Desktop a una a righe su Mobile.
@@ -22,9 +18,9 @@ layout responsive adattivo e gestione avanzata delle risorse.
 
 ## 🚀 Run
 
-Assicurati di avere [pnpm](https://pnpm.ioinstallation) installato sul tuo sistema.
+Assicurati di avere [pnpm](https://pnpm.io/installation) installato sul tuo sistema.
 
    ```bash
-   git clone https://github.com/ricbuz94/test-threejs.git
-   cd test-threejs
+   git clone https://github.com/ricbuz94/test-threejs.git && \\
+   cd test-threejs && \\
    pnpm dev
