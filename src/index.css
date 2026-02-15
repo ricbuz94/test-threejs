@@ -1,0 +1,51 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#view {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+
+    image-rendering: optimizeSpeed; /* Velocizza il ridisegno */
+    backface-visibility: hidden; /* Evita glitch su alcuni browser mobile */
+    transform: translateZ(0);
+}
+
+#options {
+    color: #fff;
+    background-color: #222;
+    padding: 1rem;
+    z-index: 10;
+}
+
+/* Small */
+@media screen and (max-width: 600px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 7fr 1fr;
+    }
+
+    #options {
+        min-width: 250px;
+    }
+}

@@ -1,0 +1,27 @@
+# Log e file di runtime
+node_modules/
+dist/
+dist-ssr/
+pnpm-lock.yaml
+
+# Variabili d'ambiente
+.env
+.env*
+.env.*
+
+# Editor e IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Cache di Vite
+.vite/
